@@ -1,0 +1,160 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    display: flex;
+    margin-right: 1rem;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust as needed */
+}
+ 
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    background-image: url('hero-bg.jpg'); /* Use your background image here */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    background-color: #007BFF; /* Adjust as needed */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    background-image: url('hero-bg.jpg'); /* Use your background image here */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.latest-blogs {
+    padding: 2rem;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.blog img {
+    max-width: 100px; /* Adjust as needed */
+    margin-right: 1rem;
+}
+
+.blog h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blog a {
+    text-decoration: none;
+    color: #007BFF; /* Adjust as needed */
+}
+
+.more-blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.more-blogs .blog {
+    flex: 0 0 calc(33.33% - 1rem); /* Adjust as needed */
+    margin-bottom: 2rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust as needed */
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer-content {
+    flex: 1;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #007BFF; /* Adjust as needed */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-image img {
+    max-width: 100px; /* Adjust as needed */
+}
+
+
+   
